@@ -1,0 +1,122 @@
+/* --------------------------
+:: Template Name: Mereo
+:: Template Author: Devailton Silveira
+:: Template Author URI: https://https://www.mereo.com
+:: Description: Css para teste frontend mereo
+:: Tags: css, mereo. teste
+:: Version: v1.0
+:: Created: 14/11/2019
+-------------------------- */
+
+/* --------------------------
+:: Importanto fontes do projeto
+-------------------------- */
+
+@font-face {
+    font-family:'omnesmedium';
+	src:url('../assets/fonts/omnes-medium-webfont.eot');
+	src:url('../assets/fonts/omnes-medium-webfont.eot?#iefix') format("embedded-opentype"), url('../assets/fonts/omnes-medium-webfont.woff') format("woff"), url('../assets/fonts/omnes-medium-webfont.ttf') format("truetype");
+    font-weight:normal;
+    font-style:normal
+}
+
+@font-face {
+    font-family:'omnesbold';
+	src:url('../assets/fonts/omnes-bold-webfont.eot');
+	src:url('../assets/fonts/omnes-bold-webfont.eot?#iefix') format("embedded-opentype"), url('../assets/fonts/omnes-bold-webfont.woff') format("woff"), url('../assets/fonts/omnes-bold-webfont.ttf') format("truetype");
+    font-weight:normal;
+    font-style:normal
+}
+
+@font-face {
+    font-family:'omneslight';
+	src:url('../assets/fonts/omnes-light-webfont.eot');
+	src:url('../assets/fonts/omnes-light-webfont.eot?#iefix') format("embedded-opentype"), url('../assets/fonts/omnes-light-webfont.woff') format("woff"), url('../assets/fonts/omnes-light-webfont.ttf') format("truetype");
+    font-weight:normal;
+    font-style:normal
+}
+
+@font-face {
+    font-family:'omnesmedium_italic';
+	src:url('../assets/fonts/omnes-mediumitalic-webfont.eot');
+	src:url('../assets/fonts/omnes-mediumitalic-webfont.eot?#iefix') format("embedded-opentype"), url('../assets/fonts/omnes-mediumitalic-webfont.woff') format("woff"), url('../assets/fonts/omnes-mediumitalic-webfont.ttf') format("truetype");
+    font-weight:normal;
+    font-style:normal
+}
+
+@font-face {
+    font-family:'omnessemibold';
+	src:url('../assets/fonts/omnes-semibold-webfont.eot');
+	src:url('../assets/fonts/omnes-semibold-webfont.eot?#iefix') format("embedded-opentype"), url('../assets/fonts/omnes-semibold-webfont.woff') format("woff"), url('../assets/fonts/omnes-semibold-webfont.ttf') format("truetype");
+    font-weight:normal;
+    font-style:normal
+}
+
+@font-face {
+    font-family:'omnes_regularregular';
+	src:url('../assets/fonts/omnes-regular-webfont.eot');
+	src:url('../assets/fonts/omnes-regular-webfont.eot?#iefix') format("embedded-opentype"), url('../assets/fonts/omnes-regular-webfont.woff') format("woff"), url('../assets/fonts/omnes-regular-webfont.ttf') format("truetype");
+    font-weight:normal;
+    font-style:normal
+}
+
+/* --------------------------
+:: Arquivos padrões do tema
+-------------------------- */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+  min-height: 100%;
+  min-height: 100vh;
+  overflow: auto;
+}
+
+body {
+    font-family: 'omnes_regularregular', sans-serif;
+    background-color: #EAEAEA;
+}
+
+.text-center {
+	text-align: center !important;
+}
+
+.padding-top {
+	margin-top: 2rem !important;
+}
+
+.clear {
+	clear: both;
+}
+
+/* --------------------------
+:: Cabeçalho
+-------------------------- */
+
+.header_area {
+	background: #232323;
+}
+
+.header_area a {
+	color: #FFF;
+}
+
+.header_area a:hover {
+	color: #0062cc;
+}
+
+.header_area .menu-responsive i {
+	margin-top: 8px
+}
+
+.header_area .navbar {
+	padding-right: 0;
+	padding-left: 0;
+}
+
+.header_area ul.navbar-nav {
+	margin-top: -8px;
+}
