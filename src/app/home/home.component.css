@@ -1,0 +1,188 @@
+/* --------------------------
+:: Arquivos padrões do tema
+-------------------------- */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+  min-height: 100%;
+  min-height: 100vh;
+  overflow: auto;
+}
+
+body {
+    font-family: 'omnes_regularregular', sans-serif;
+    background-color: #EAEAEA;
+}
+
+.text-center {
+	text-align: center !important;
+}
+
+.padding-top {
+	margin-top: 2rem !important;
+}
+
+.clear {
+	clear: both;
+}
+
+/* --------------------------
+:: Cabeçalho
+-------------------------- */
+
+.header_area {
+	background: #232323;
+}
+
+.header_area a {
+	color: #FFF;
+}
+
+.header_area a:hover {
+	color: #0062cc;
+}
+
+.header_area .menu-responsive i {
+	margin-top: 8px
+}
+
+.header_area .navbar {
+	padding-right: 0;
+	padding-left: 0;
+}
+
+.header_area ul.navbar-nav {
+	margin-top: -8px;
+}
+
+/* --------------------------
+:: Blocos
+-------------------------- */
+
+.division-section {
+	margin-top: 1rem;
+}
+
+.section-heading {
+	margin: 1rem 0 2rem;
+}
+
+.section-heading h2 {
+	font-family: 'omnessemibold', sans-serif;
+	color: #3D3D3D;
+	display: initial;
+}
+
+.section-heading button {
+	width: 12rem;
+}
+
+/* --------------------------
+:: Eventos
+-------------------------- */
+
+.area-eventos img {
+	border-radius: .3rem;
+	width: 100%;
+}
+
+.area-eventos .box-evento {
+	background: #FFF;
+	border-radius: .3rem;
+}
+
+.area-eventos .info-evento {
+	padding: 1rem;
+}
+
+.box-evento .info-date {
+	color: #959595;
+	font-size: .8rem;
+	line-height: .8rem;
+	float: left;
+	border-right: 1px solid #959595;
+	width: 14%;
+	height: 2rem;
+}
+
+.box-evento .info-title {
+	color: #959595;
+	font-size: 1rem;
+	float: left;
+	width: 80%;
+	margin-left: 15px;
+	line-height: 1rem;
+}
+
+.box-evento .info-local {
+	color: #959595;
+	font-size: .6rem;
+	clear: both;
+	padding-top: 1rem;
+	text-align: center;
+}
+
+/* --------------------------
+:: Formulário
+-------------------------- */
+
+.form-eventos .btn-default {
+	background: #F1F1F1;
+	border: 1px solid #ADAEAE;
+}
+
+.form-eventos .formulario {
+	background: #FFF;
+	padding: 2rem 3rem;
+}
+
+.form-eventos form {
+    width: 100%;
+}
+
+.form-eventos button {
+    width: 12rem;
+}
+
+.form-eventos .form-date {
+	width: 25%;
+	float: left;
+}
+
+.form-eventos .form-date.marg {
+    margin-right: 8rem;
+}
+
+.form-eventos .form-group p {
+	color: #6F6F70;
+	font-size: 1.5rem;
+}
+
+.form-eventos .form-group {
+	color: #6F6F70;
+}
+
+.form-eventos .form-group .info {
+	margin-left: 1rem;
+	margin-top: -5px;
+}
+
+.form-eventos .form-group .obr {
+	color: red;
+}
+
+.form-eventos .box-form {
+	margin-bottom: 4rem;
+}
+
+.form-eventos .box-form.b-input {
+	margin-top: 14rem;
+}
+
+.form-eventos  .box-form-btn {
+	margin-top: 0rem;
+}

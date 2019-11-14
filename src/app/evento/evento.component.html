@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Devailton Silveira">
+        <meta name="description" content="Teste para empresa Mereo">
+        <meta name="keywords" content="teste, frontend, mereo, desenvolvimento, angular">
+
+        <!-- ***** CSS ***** -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" crossorigin="anonymous">
+        
+        <!-- ***** SCRIPTS ***** -->
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+        <title>Projeto Mereo</title>
+
+    </head>
+
+    <body>
+
+		<!-- ***** MEUS EVENTOS ***** -->
+		<section class="form-eventos division-section" >
+
+		    <div class="container">
+		        <div class="row">
+		            <div class="col-12">
+		                <div class="section-heading">
+		                    <h2><i class="fa fa-long-arrow-left fa-fw" aria-hidden="true"></i> Criar evento</h2>
+		                    <button type="button" class="btn btn-default float-right" name="btnMeusEventos" routerLink="/home">Meus eventos</button>
+		                </div>
+		            </div>
+		        </div>
+		    </div>
+
+		     <div class="container formulario">
+
+		        <div class="row">
+
+		            <form>
+
+		                <div class="box-form">
+		                    <div class="form-group">
+		                        <p>1. Qual é o nome do evento?</p>
+		                        <div class="info">Adicione as informações do evento!</div>
+		                    </div>
+		                    <div class="form-group">
+		                        <label>Nome do evento <span class="obr">*</span></label>
+		                        <input type="text" class="form-control" name="nome-evento" placeholder="Ex.: IV Congresso Brasileiro">
+		                    </div>
+		                </div>
+
+		                <div class="box-form">
+		                    <div class="form-group">
+		                        <p>2. Quando o evento vai acontecer?</p>
+		                        <div class="info">Informe ao público a data de realização do seu evento.</div>
+		                    </div>
+		                    <div class="form-date marg">
+		                        <div class="form-group">
+		                            <label>Data de ínicio <span class="obr">*</span></label>
+		                            <div class="input-group">
+		                                <div class="input-group-prepend">
+		                                    <div class="input-group-text"><i class="fa fa-calendar-check-o fa-fw" aria-hidden="true"></i></div>
+		                                </div>
+		                                <input type="text" class="form-control" name="nome-evento" placeholder="05/10/2019">
+		                            </div>
+		                        </div>
+		                    </div>
+		                    <div class="form-date">
+		                        <div class="form-group">
+		                            <label>Data fim <span class="obr">*</span></label>
+		                            <div class="input-group">
+		                                <div class="input-group-prepend">
+		                                    <div class="input-group-text"><i class="fa fa-calendar-check-o fa-fw" aria-hidden="true"></i></div>
+		                                </div>
+		                                <input type="text" class="form-control" name="nome-evento" placeholder="05/10/2019">
+		                            </div>
+		                        </div>
+		                    </div>
+
+		                    <div class="form-date marg clear">
+		                        <div class="form-group">
+		                            <label>Data de ínicio <span class="obr">*</span></label>
+		                            <div class="input-group">
+		                                <div class="input-group-prepend">
+		                                    <div class="input-group-text"><i class="fa fa-calendar-check-o fa-fw" aria-hidden="true"></i></div>
+		                                </div>
+		                                <input type="text" class="form-control" name="nome-evento" placeholder="05/10/2019">
+		                            </div>
+		                        </div>
+		                    </div>
+		                    <div class="form-date">
+		                        <div class="form-group">
+		                            <label>Data fim <span class="obr">*</span></label>
+		                            <div class="input-group">
+		                                <div class="input-group-prepend">
+		                                    <div class="input-group-text"><i class="fa fa-calendar-check-o fa-fw" aria-hidden="true"></i></div>
+		                                </div>
+		                                <input type="text" class="form-control" name="nome-evento" placeholder="05/10/2019">
+		                            </div>
+		                        </div>
+		                    </div>
+
+		                </div>
+
+		                <div class="box-form clear b-input">
+		                    <div class="form-group">
+		                        <p>3. Local do evento</p>
+		                        <div class="info">Informe ao público o local de realização do seu evento.</div>
+		                    </div>
+		                    <div class="form-group">
+		                        <label>Nome do evento <span class="obr">*</span></label>
+		                        <input type="text" class="form-control" name="nome-evento" placeholder="Ex.: Viçosa - MG">
+		                    </div>
+		                </div>
+
+		                <div class="box-form-btn float-right">
+		                    <div class="form-group">
+		                        <button type="submit" class="btn btn-link">Cancelar</button>
+		                        <button type="submit" class="btn btn-primary">Publicar</button>
+		                    </div>
+		                </div>
+		              
+		            </form>
+
+		        </div>
+
+		    </div>
+
+		</section>
+		<!-- ***** FIM MEUS EVENTOS ***** -->
+
+    </body>
+
+</html>
