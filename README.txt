@@ -9,6 +9,6 @@ Esse é um Front-End Test da Mereo desenvolvido por Devailton Alex da Silveira;
 	- BREAK - Verifique se sua rede tenha proxy, caso tenha, configure proxy para npm: sudo npm config set proxy "SEU PROXY"
 
 #Executando aplicação
-	- Entre na pasta e execute o comenado: npm start
+	- Entre na pasta e execute o comando: npm start
 	- Abra o navegador e digite: http://localhost:4200/
 	- Pronto! A aplicação estará rodando!
